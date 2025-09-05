@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+  margin-top: -10px;
+  margin-bottom: -50px;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #34495e;
+  margin: 20px;
+}
+
+h4 {
+  text-align: center;
+  color: #16a085;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.section-title h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin: 25px;
+}
+
+.button-group .sub-button-group {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-group .sub-button-group button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-group .sub-button-group button:hover {
+  background-color: #3498db;
+}
+
+.button-group .sub-button-group button:active {
+  background-color: #2980b9;
+}
+
+.button-group .sub-button-group a {
+  text-decoration: none;
+}
+
+.form .group-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+.form {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  margin-top: 40px;
+  color: #ffffff;
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+footer a button {
+  background-color: #2c3e50;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a button:active {
+  color: #bdc3c7;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Pour mobiles */
+@media (max-width: 480px) {
+  .button-group {
+    grid-template-columns: 1fr;
+    /* 1 colonne */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .button-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* 2 colonnes de même taille */
+    grid-template-rows: repeat(6, auto);
+    /* 3 lignes, hauteur automatique */
+    
+    margin-left: 80px;
+    margin-right: 0;
+  }
+
+    .form {
+      max-width: 1070px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ecf0f1;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Laptop ≥ 1024px 
+@media (max-width: 800px) {
+  .button-group {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* 2 colonnes de même taille 
+      grid-template-rows: repeat(2, auto);
+      /* 3 lignes, hauteur automatique 
+      gap: 10px;
+      /* espace entre les cellules 
+      padding: 13px;
+    }
+}
+
+
+ */
