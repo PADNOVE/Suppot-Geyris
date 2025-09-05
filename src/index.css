@@ -185,7 +185,7 @@ footer a button:active {
     grid-template-rows: repeat(6, auto);
     /* 3 lignes, hauteur automatique */
     
-    margin-left: 80px;
+    margin-left: 75px;
     margin-right: 0;
   }
 
