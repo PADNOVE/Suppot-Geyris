@@ -123,11 +123,8 @@ function App() {
         <h4>Assistance Geyris</h4>
         <p>
           Pour mieux vous aider, dites-nous comment vous utilisez Geyris en fournissant <br/>
-            les informations nécessaires quand vous nous contactez.
-          Vous pouvez aussi nous écrire directement à l'adresse e-mail ci-dessous. :  
-        </p>
-        
-        <p>
+            les informations nécessaires quand vous nous contactez.<br/>
+          Vous pouvez aussi nous écrire directement à l'adresse e-mail ci-dessous. <br/>
             Par exemple, quand vous nous contactez au sujet d'un problème technique, <br />
             veuillez inclure des détails tels que la version de Geyris que vous utilisez, <br />
             le système d'exploitation de votre appareil, et toute étape spécifique pour reproduire le problème.
