@@ -269,10 +269,10 @@ function App() {
           Consultez notre FAQ ou contactez-nous directement pour toute question ou préoccupation.
         </p>
           <a href="https://geyris.com/faq/" target="_blank" rel="noopener noreferrer">
-            <button>• Consulter la FAQ</button>
+            <button> • Consulter la FAQ</button>
           </a>
           <a href="https://geyris.com/contact/" target="_blank" rel="noopener noreferrer">
-            <button>• Nous contacter</button>
+            <button> • Nous contacter</button>
         </a>
         <div className="social-icons">
           <a href='https://www.facebook.com/share/1BMxin4MpR/' target="_blank" rel="noopener noreferrer" className="text-white">
