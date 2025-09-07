@@ -123,21 +123,34 @@ function App() {
         <h4>Assistance Geyris</h4>
         <p>
           Pour mieux vous aider, dites-nous comment vous utilisez Geyris en fournissant <br/>
-          les informations nécessaires quand vous nous contactez. 
+            les informations nécessaires quand vous nous contactez.
+          Vous pouvez aussi nous écrire directement à l'adresse e-mail ci-dessous. :  
+        </p>
+        
+        <p>
+            Par exemple, quand vous nous contactez au sujet d'un problème technique, <br />
+            veuillez inclure des détails tels que la version de Geyris que vous utilisez, <br />
+            le système d'exploitation de votre appareil, et toute étape spécifique pour reproduire le problème.
+            Cela nous aidera à diagnostiquer et résoudre votre problème rapidement et plus efficace.
         </p>
         
         <div className='contacts'>
             <h5>
-              Appels :
-              (+228) 92 11 31 89 / 79 96 52 58   |
+              • Appels :
+              (+228) 92 11 31 89 / 79 96 52 58 <br />
+              (+224) 610 41 69 49
             </h5>
             <h5>
-              WhatsApp :
-              (+228) 79 96 52 58 / 98 81 53 03   |
+              • WhatsApp :
+              (+228) 79 96 52 58 / 98 81 53 03
             </h5>
             <h5>
-              E-mail :
-              contacts@padnove.com   |
+              • E-mail :
+              contacts@padnove.com
+            </h5>
+            <h5>
+              • Site web :
+              www.padnove.com
             </h5>
         </div>
 
@@ -256,19 +269,19 @@ function App() {
           Consultez notre FAQ ou contactez-nous directement pour toute question ou préoccupation.
         </p>
           <a href="https://geyris.com/faq/" target="_blank" rel="noopener noreferrer">
-            <button>- Consulter la FAQ</button>
+            <button>• Consulter la FAQ</button>
           </a>
           <a href="https://geyris.com/contact/" target="_blank" rel="noopener noreferrer">
-            <button>- Nous contacter</button>
+            <button>• Nous contacter</button>
         </a>
         <div className="social-icons">
-          <a href='https://facebook.com' target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href='https://www.facebook.com/share/1BMxin4MpR/' target="_blank" rel="noopener noreferrer" className="text-white">
             <i className="fa-brands fa-facebook fs-4"></i>
           </a>
-          <a href='https://x.com/Padnove?t=83t-Ozjb9rEUnJf7qSfs2A&s=09' target="_blank" rel="noopener noreferrer" className="text-white">
+          <a href='https://x.com/Geyris_?t=GqzvpA0Hj5XIM7YnsD1R-g&s=09' target="_blank" rel="noopener noreferrer" className="text-white">
             <i className="fa-brands fa-x-twitter fs-4"></i>
           </a>
-          <a href='https://www.linkedin.com/company/padnove/' target="_blank" rel="noopener noreferrer" className="text-white"> 
+          <a href='https://www.linkedin.com/company/geyris/' target="_blank" rel="noopener noreferrer" className="text-white"> 
             <i className="fa-brands fa-linkedin fs-4"></i>
           </a>
         </div>
